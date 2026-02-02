@@ -1,0 +1,224 @@
+{
+  "name": "Rush of Ikorr",
+  "menuBackgroundImage": "https://github.com/Timetraveler12x/TestingRI/blob/main/IMG/ROIinmenubackground.jpg",
+  "defaultRessources": {
+    "backgrounds": [
+      "https://github.com/Timetraveler12x/TestingRI/blob/main/IMG/ROIplaymat.jpg"
+    ],
+    "decksUrl": ""
+  },
+  "customHelp": "",
+  "cardRotation": 45,
+  "cards": {
+    "dataUrl": "",
+    "cardBack": "https://github.com/Timetraveler12x/TestingRI/blob/main/IMG/ROIcardback.jpg"
+  },
+  "deckBuilding": {
+    "mainFilters": [],
+    "formats": []
+  },
+  "gameplay": {
+    "d4567aaf-9a92-434f-866f-25dce3128d4f": {
+      "mulligan": {
+        "info": "",
+        "startingHandSize": "5",
+        "drawNewHand": true,
+        "putSelectionAtBottom": false,
+        "drawNewSelectedCards": true
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": false,
+        "firstPlayerTokenName": "",
+        "drawPerTurn": 1
+      },
+      "defaultNotes": "",
+      "tokens": [],
+      "countersStartingValues": [
+        0
+      ],
+      "hideFacedDownCards": false,
+      "sections": {
+        "customSections": [
+          "Avatar",
+          "Champion",
+          "Void",
+          "Influence",
+          "Location"
+        ],
+        "layout": {
+          "direction": "row",
+          "isSymetricalForOpponents": true,
+          "content": [
+            {
+              "direction": "column",
+              "style": {
+                "width": 100
+              },
+              "content": [
+                {
+                  "section": "Avatar",
+                  "style": {
+                    "width": 100
+                  }
+                },
+                {
+                  "section": "Location",
+                  "style": {
+                    "width": 100
+                  }
+                },
+                {
+                  "section": "Influence",
+                  "style": {
+                    "width": 100
+                  }
+                }
+              ],
+              "isSymetricalForOpponents": false
+            },
+            {
+              "direction": "column",
+              "style": {
+                "width": 600
+              },
+              "content": [
+                {
+                  "section": "Champion Zone",
+                  "style": {
+                    "width": 600
+                  }
+                },
+                {
+                  "section": "",
+                  "style": {
+                    "width": 600
+                  }
+                },
+                {
+                  "section": "Influence Zone",
+                  "style": {
+                    "width": 600
+                  }
+                }
+              ],
+              "isSymetricalForOpponents": false
+            },
+            {
+              "direction": "column",
+              "style": {
+                "width": 100
+              },
+              "content": [
+                {
+                  "section": "Void",
+                  "style": {
+                    "width": 100
+                  }
+                },
+                {
+                  "section": "Discard",
+                  "style": {
+                    "width": 100
+                  }
+                },
+                {
+                  "section": "Deck",
+                  "style": {
+                    "width": 100
+                  }
+                }
+              ],
+              "isSymetricalForOpponents": false
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [],
+        "autoPlayFromHand": {},
+        "autoPlayFromStack": {},
+        "sectionsDict": {
+          "Mana": {
+            "title": "Mana",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Influence",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "7e75adb0-0ab4-401f-aa6a-1049d8f8d51c": {
+            "title": "Avatar",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Avatar",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "f73a30e6-4d96-496a-b7e3-cfb105ce849b": {
+            "title": "Champion",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Champion",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "d5bdf754-d143-468d-bb9f-faeef57c7135": {
+            "title": "Location",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "0188810f-9b47-45f3-bdcc-0f2b0b7fe763": {
+            "title": "Void",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          }
+        }
+      }
+    }
+  }
+}
